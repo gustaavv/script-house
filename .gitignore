@@ -1,0 +1,43 @@
+test/
+
+
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!script_house/main/**/target/
+!script_house/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!script_house/main/**/build/
+!script_house/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### python ###
+/dist/
+/**/*.egg-info/
+
+os-shell-script
