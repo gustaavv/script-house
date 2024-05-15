@@ -30,7 +30,6 @@ pip install --upgrade script-house
 
 ```shell
 python.exe .\setup.py bdist_wheel sdist
-pip install .
 ```
 
 
