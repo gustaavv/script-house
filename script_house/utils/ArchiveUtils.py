@@ -1,7 +1,7 @@
 import subprocess
 
-from . import SystemUtils
-from .FileSystemUtils import assert_is_file, assert_is_path
+from script_house.utils import SystemUtils
+from script_house.utils.FileSystemUtils import assert_is_file, assert_is_path
 
 
 class BaseArchiveUtils:

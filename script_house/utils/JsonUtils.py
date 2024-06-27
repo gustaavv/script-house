@@ -4,7 +4,7 @@ from os.path import isfile
 # bson库依赖pymongo，才能正常使用 json_util
 from bson import json_util
 
-from .FileSystemUtils import assert_is_file
+from script_house.utils.FileSystemUtils import assert_is_file
 
 """
 The conversion flow:

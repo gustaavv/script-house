@@ -6,8 +6,8 @@ from datetime import datetime
 from os.path import join, isfile, isdir
 from pathlib import Path
 
-from ..utils.FileSystemUtils import assert_is_file, assert_is_dir, winapi_path
-from ..utils.SystemUtils import run
+from script_house.utils.FileSystemUtils import assert_is_file, assert_is_dir, winapi_path
+from script_house.utils.SystemUtils import run
 
 
 def random_open(directory: str = None,
