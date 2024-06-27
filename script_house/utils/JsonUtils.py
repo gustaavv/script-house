@@ -1,10 +1,14 @@
 import json
 from os.path import isfile
 
-# bson库依赖pymongo，才能正常使用 json_util
-from bson import json_util
-
 from script_house.utils.FileSystemUtils import assert_is_file
+
+try:
+    from pydantic import BaseModel
+    from bson import json_util
+except ImportError as e:
+    raise ImportError(f"Required dependencies for this utility are not installed: {e.name}. "
+                      f"Please install them using `pip install pydantic==2.5.3 bson==0.5.10 pymongo==4.6.1`")
 
 """
 The conversion flow:
@@ -58,3 +62,8 @@ def to_obj(string: str, clazz: type = None):
     if clazz is None:
         return obj
     return clazz(**obj)
+
+
+if __name__ == '__main__':
+    obj = to_obj('{"a":true}')
+    print(obj)
