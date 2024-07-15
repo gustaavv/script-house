@@ -43,7 +43,7 @@ python.exe .\setup.py bdist_wheel sdist
 
 ## How to Upload to PyPI
 
-1. 拿 `api_token`
+1. Get `api_token`
 
 2. Create a .pypirc file and place it in the `$HOME` directory (for Windows, place it in `C:\Users\Username`)
    .pypirc format:
