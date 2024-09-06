@@ -9,7 +9,7 @@ with open('requirements.txt', 'r', encoding='utf-8') as f:
 
 setup(
     name="script_house",
-    version="1.1.0",
+    version="1.1.1",
     description="a python script house containing handy functions for daily use",
     packages=find_packages(),
     url="https://github.com/gustaavv/script-house",
@@ -19,7 +19,7 @@ setup(
     install_requires=requirements,
     classifiers=[
         "Operating System :: Microsoft :: Windows :: Windows 10",
-        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Intended Audience :: End Users/Desktop",
         "Intended Audience :: System Administrators",
         "Intended Audience :: Information Technology",
