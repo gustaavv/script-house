@@ -12,10 +12,10 @@ This repo is a handy Python module for my daily use — [`script-house`](https:/
 
 Dependencies for this module are file-based. If users want to use functions from a specific file, they only need to install the corresponding dependencies (an exception will be thrown if not installed). Here is a list of dependencies for all files, which users can install in advance to avoid exceptions:
 
-| File                    | Command to Install Dependencies                              |
+| File                     | Command to Install Dependencies                           |
 |--------------------------|-----------------------------------------------------------|
 | `.utils.JsonUtils`       | `pip install pydantic==2.5.3 bson==0.5.10 pymongo==4.6.1` |
-
+| `.ops.MarkdownOperation` | `pip install requests markdown beautifulsoup4`            |
 
 # Usage
 
