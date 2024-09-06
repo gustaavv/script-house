@@ -9,7 +9,7 @@ with open('requirements.txt', 'r', encoding='utf-8') as f:
 
 setup(
     name="script_house",
-    version="1.0.2",
+    version="1.1.0",
     description="a python script house containing handy functions for daily use",
     packages=find_packages(),
     url="https://github.com/gustaavv/script-house",
